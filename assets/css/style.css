@@ -1271,6 +1271,7 @@ section {
 #team {
   background: #fff;
   padding: 60px 0;
+  justify-content: center;
 }
 
 #team .member {
