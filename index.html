@@ -35,8 +35,8 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-    
-    
+
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CTL2YNBJDW"></script>
     <script>
@@ -46,6 +46,9 @@
 
       gtag('config', 'G-CTL2YNBJDW');
     </script>
+
+    <!-- Cookie banner -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -765,10 +768,10 @@
           <!--  <h4>Useful Links</h4> -->
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About Us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="terms.html">Terms of Service</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="privacy.html">Privacy Policy</a></li>
             </ul>
           </div>
 
@@ -836,6 +839,28 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Cookie banner -->
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "content": {
+      "message": "This website uses cookies to ensure you get the best experience on our website. ",
+      "dismiss": "Got it!",
+      "link": "Learn more"
+    }
+  });
+  </script>
+
+
 
 </body>
 
